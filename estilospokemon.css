@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+}
+
+.div_carta {
+    width: 260px;
+    height: 400px;
+    background-image: url('fondo4.jpg');
+    margin: 100px;
+    border: 10px solid #FFDF00;
+    border-radius: 25px;
+}
+
+.div_titulo {
+    margin: -20px 9px -27px 9px;
+}
+
+.titulo_h1 {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 6px;
+    font-weight: 700;
+}
+
+.titulo_h2 {
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 70px;
+    font-weight: 600;
+
+}
+
+.titulo_h3 {
+    font-size: 27px;
+    display: inline-block;
+    font-weight: 600;
+
+}
+
+.div_img {
+    margin: 0 14px;
+}
+
+.img {
+    width: 230px;
+    border: 3px solid #bcc6ccd1;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4); 
+    margin-bottom: 5px;
+}
+
+.div_icon {
+    display: inline-block;
+}
+
+.ghost_img {
+    width: 18px;
+    position: relative;
+    top: 3px;
+
+}
+
+.div_ataque {
+    margin: -18px 22px;
+}
+
+.ataque1_h2, .ataque2_h2 {
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.ataque1_h3 {
+    display: inline-block;
+    margin-left: 74px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.ataque1_p, .ataque2_p {
+    font-size: 9px;
+    margin: -15px 0 -10px 4px;
+}
+
+hr {
+    width: 240px;
+    height: 1px;
+    background-color: black;
+    border-style: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.ataque2_h2 {
+    margin-top: 4px;
+}
+
+.div_end {
+    margin: -20px 5px;
+}
+
+.end_h3 {
+    font-size: 11px;
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.dark, .fight, .normal {
+    width: 22px;
+    position: relative;
+}
+
+.dark {
+    left: 27px;
+    top: -14px;
+}
+
+.fight {
+    left: 85.5px;
+    top: -14px;
+}
+
+.normal {
+    left: 143px;
+    top: -14px;
+}
+
+.div_descripcion {
+    margin: 3px;
+}
+
+.descripcion_p {
+    font-size: 9px;
+    margin: -15px 4px;
+    border: 1.5px solid #0000003a;
+    padding: 0 2px 0 4px;
+}
